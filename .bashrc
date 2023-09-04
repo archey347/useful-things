@@ -12,20 +12,5 @@ then
 fi
 export PATH
 
-echo '========================================================================'
-echo 'Press enter to skip setting up key.'
-echo ''
-eval `ssh-agent`
-ssh-add
-KEY_SUCCESS=$?
-echo '========================================================================'
+export PS1="\n\[$(tput setaf 39)\]\u\[$(tput setaf 81)\]@\[$(tput setaf 77)\]\h\[$(tput setaf 226)\]:$PWD \[$(tput sgr0)\]\n$ "
 
-# Display a K if setting up a key was successful
-if [ $KEY_SUCCESS = 0 ]
-then
- K=':K'
-else
- K=''
-fi
-
-PS1='\[`[ $? = 0 ] && X=2 || X=1; tput setaf $X`\]\u@\h$K\[`tput sgr0`\]:$PWD\n\$ '
