@@ -2,6 +2,8 @@
 
 Some configs that I find useful.
 
+TODO: ansible this
+
 ### To install
 
 ```
