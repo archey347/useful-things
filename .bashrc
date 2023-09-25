@@ -12,5 +12,5 @@ then
 fi
 export PATH
 
-export PS1="\n\[$(tput setaf 39)\]\u\[$(tput setaf 81)\]@\[$(tput setaf 77)\]\h\[$(tput setaf 226)\]:$PWD \[$(tput sgr0)\]\n$ "
+export PS1='\n\[$(tput setaf 39)\]\u\[$(tput setaf 81)\]@\[$(tput setaf 77)\]\h\[$(tput setaf 226)\]:$(pwd) \[$(tput sgr0)\]\n$ '
 
