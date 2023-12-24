@@ -1,0 +1,8 @@
+{
+    "git.autofetch": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.output.textLineLimit": 100,
+    "notebook.output.scrolling": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+}
