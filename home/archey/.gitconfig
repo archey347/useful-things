@@ -1,3 +1,13 @@
+[user]
+        email = a@archbar.me
+        name = Archey Barrell
+        signingkey = 774CE454F5F552A4
+
+[commit]
+        gpgsign = true
+
+[tag]
+        gpgSign = true
 
 [branch]
         autosetuprebase = always
