@@ -4,5 +4,6 @@
     "notebook.output.textLineLimit": 100,
     "notebook.output.scrolling": true,
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80
+    "editor.wordWrapColumn": 80,
+    "files.insertFinalNewline": true
 }
