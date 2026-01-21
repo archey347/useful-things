@@ -9,6 +9,9 @@
 [tag]
         gpgSign = true
 
+[push]
+        autoSetupRemote = true
+
 [branch]
         autosetuprebase = always
 [core]
