@@ -8,8 +8,8 @@ esac
 
 # Source all files in ~/.bashrc.d/
 if [ -d ~/.bashrc.d ]; then
-    for file in ~/.bashrc.d/*.sh; do
-        [ -r "$file" ] && . "$file"
+    for file in ~/.bashrc.d/*; do
+        [ -f "$file" ] && [ -r "$file" ] && . "$file"
     done
     unset file
 fi
