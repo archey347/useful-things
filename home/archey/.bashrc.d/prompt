@@ -4,7 +4,7 @@ __git_branch() {
     branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
     if [[ -n "$branch" ]]; then
         if [[ "$branch" == "main" || "$branch" == "master" ]]; then
-            echo " ($branch⚠️)"
+            echo " ($branch ⚠️)"
         else
             echo " ($branch)"
         fi
