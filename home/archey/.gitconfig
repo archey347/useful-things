@@ -1,19 +1,19 @@
 [user]
-        email = a@archbar.me
-        name = Archey Barrell
-        signingkey = 774CE454F5F552A4
+    email = a@archbar.me
+    name = Archey Barrell
+    signingkey = 774CE454F5F552A4
 
 [commit]
-        gpgsign = true
+    gpgsign = true
 
 [tag]
-        gpgSign = true
+    gpgSign = true
 
 [push]
-        autoSetupRemote = true
+    autoSetupRemote = true
 
 [branch]
-        autosetuprebase = always
+    autosetuprebase = always
 
 [branch "main"]
 	; prevent pushes to common default branch
@@ -23,15 +23,13 @@
 	; Prevent pushes to common default branch
 	pushRemote = "no_push"
 
-
 [core]
-        autocrlf = input
-        editor = /usr/bin/nano
+    autocrlf = input
+    editor = /usr/bin/vim
 
 [alias]
-
-; FROM https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298
-
+	; Draws pretty git graphs
+	; from https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298
     lg = lg1
     lg1 = lg1-specific --all
     lg2 = lg2-specific --all
