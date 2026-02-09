@@ -14,6 +14,16 @@
 
 [branch]
         autosetuprebase = always
+
+[branch "main"]
+	; prevent pushes to common default branch
+	pushRemote = "no_push"
+
+[branch "master"]
+	; Prevent pushes to common default branch
+	pushRemote = "no_push"
+
+
 [core]
         autocrlf = input
         editor = /usr/bin/nano
