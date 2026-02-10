@@ -1,1 +1,1 @@
-alias git-new-branch=git checkout -b
+alias git-new-branch='git checkout -b'
